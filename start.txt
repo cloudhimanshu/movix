@@ -1,0 +1,13 @@
+how to start application after closing 
+you ll just need following command if you havve setup everything in your pc 
+npm run dev
+after that you will see localhost:{port}
+simply click one that like this => ctrl + 'mouse left click ' 
+this will open that link into browser 
+
+
+
+recommended use vs studio code for best experience 
+
+
+<<<<<<<<<<<<<<<<<<<<<<<  { Happy coding :) }  >>>>>>>>>>>>>>>>>>>>>>
