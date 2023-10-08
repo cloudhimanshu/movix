@@ -6,13 +6,13 @@
     }
     .carouselTitle {
         font-size: 24px;
-        color: white;
+        color: rgb(255, 255, 255);
         margin-bottom: 20px;
         font-weight: normal;
     }
     .arrow {
-        font-size: 30px;
-        color: black;
+        font-size: 40px;
+        color: rgb(247, 255, 2);
         position: absolute;
         top: 44%;
         transform: translateY(-50%);
@@ -24,7 +24,7 @@
             display: block;
         }
         &:hover {
-            opacity: 0.8;
+            opacity: 1.8;
         }
     }
     .carouselLeftNav {
@@ -86,7 +86,7 @@
         @include md {
             gap: 20px;
             overflow: hidden;
-            margin: 0;
+            margin: 60px;
             padding: 0;
         }
         .carouselItem {

@@ -45,7 +45,7 @@
             display: flex;
             align-items: center;
             margin: 0 15px;
-            color: white;
+            color: rgb(255, 255, 0);
             font-weight: 500;
             position: relative;
             &.searchIcon {
@@ -70,7 +70,7 @@
         }
         svg {
             font-size: 18px;
-            color: white;
+            color: rgb(235, 134, 11);
         }
     }
 
@@ -84,9 +84,9 @@
             background: var(--black3);
             flex-direction: column;
             width: 100%;
-            padding: 20px 0;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            animation: mobileMenu 0.3s ease forwards;
+            padding: 120px 0;
+            border-top: 1px solid rgba(195, 186, 186, 0.1);
+            animation: mobileMenu 1.3s ease forwards;
             .menuItem {
                 font-size: 20px;
                 width: 100%;
@@ -106,35 +106,37 @@
     .searchBar {
         width: 100%;
         height: 60px;
-        background-color: white;
+        background-color: transparent;
         position: absolute;
-        top: 60px;
-        animation: mobileMenu 0.3s ease forwards;
+        top: 0px;
+        animation: mobileMenu 1.3s ease forwards;
         .searchInput {
             display: flex;
             align-items: center;
-            height: 40px;
-            margin-top: 10px;
+            height: 0px;
+            margin-top:100px;
             width: 100%;
             svg {
                 font-size: 20px;
                 flex-shrink: 0;
-                margin-left: 10px;
+                margin-left: 0px;
                 cursor: pointer;
             }
             input {
                 width: 100%;
                 height: 50px;
-                background-color: white;
+                background-color: rgb(20, 102, 92);
+                color: antiquewhite;
                 outline: 0;
                 border: 0;
                 border-radius: 30px 0 0 30px;
                 padding: 0 15px;
                 font-size: 14px;
                 @include md {
+                    color: antiquewhite;
                     height: 60px;
-                    font-size: 20px;
-                    padding: 0 30px;
+                    font-size: 30px;
+                    padding: 0 230px;
                 }
             }
         }

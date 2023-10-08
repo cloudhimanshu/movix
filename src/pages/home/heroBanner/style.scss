@@ -8,7 +8,8 @@
     align-items: center;
     position: relative;
     @include md {
-        height: 700px;
+        height: 800px;
+        padding-top: 100px;
     }
     .backdrop-img {
         width: 100%;
@@ -34,8 +35,8 @@
         height: 250px;
         background: linear-gradient(
             180deg,
-            rgba(4, 21, 45, 0) 0%,
-            #04152d 79.17%
+            rgba(4, 45, 38, 0) 0%,
+            #042d28 79.17%
         );
         position: absolute;
         bottom: 0;
@@ -45,10 +46,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        color: white;
+        color: rgb(218, 225, 26);
         text-align: center;
         position: relative;
-        max-width: 800px;
+        max-width: 600px;
         margin: 0 auto;
         .title {
             font-size: 50px;
@@ -62,9 +63,10 @@
         .subTitle {
             font-size: 18px;
             font-weight: 500;
-            margin-bottom: 40px;
+            margin-bottom: 30px;
             @include md {
-                font-size: 24px;
+                font-size: 14px;
+                font-family: monospace;
             }
         }
         .searchInput {
@@ -76,15 +78,15 @@
                 height: 50px;
                 background-color: white;
                 outline: 0;
-                border: 0;
-                border-radius: 30px 0 0 30px;
+                border: 40;
+                border-radius:  0px 30px 0;
                 padding: 0 15px;
                 font-size: 14px;
                 @include md {
                     width: calc(100% - 150px);
                     height: 60px;
                     font-size: 20px;
-                    padding: 0 30px;
+                    padding: 0 60px;
                 }
             }
             button {
@@ -93,8 +95,8 @@
                 background: var(--gradient);
                 color: white;
                 outline: 0;
-                border: 0;
-                border-radius: 0 30px 30px 0;
+                border: 10;
+                border-radius:  0px 30px 0;
                 font-size: 16px;
                 cursor: pointer;
                 @include md {

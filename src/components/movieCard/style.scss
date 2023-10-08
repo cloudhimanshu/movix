@@ -42,7 +42,7 @@
             height: 40px;
             position: relative;
             top: 30px;
-            background-color: white;
+            background-color: rgb(255, 255, 255);
             flex-shrink: 0;
             @include md {
                 width: 50px;
@@ -60,7 +60,7 @@
         }
     }
     .textBlock {
-        color: white;
+        color: rgb(255, 255, 255);
         display: flex;
         flex-direction: column;
         .title {
