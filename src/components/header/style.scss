@@ -84,7 +84,7 @@
             background: var(--black3);
             flex-direction: column;
             width: 100%;
-            padding: 120px 0;
+            padding: 20px 0;
             border-top: 1px solid rgba(195, 186, 186, 0.1);
             animation: mobileMenu 1.3s ease forwards;
             .menuItem {
@@ -136,7 +136,7 @@
                     color: antiquewhite;
                     height: 60px;
                     font-size: 30px;
-                    padding: 0 230px;
+                    padding: 0 30px;
                 }
             }
         }
