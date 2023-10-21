@@ -10,6 +10,7 @@ import Details from "./pages/details/Details";
 import SearchResult from "./pages/searchResult/SearchResult";
 import Explore from "./pages/explore/Explore";
 import PageNotFound from "./pages/404/PageNotFound";
+import TermsOfUsePage from "./pages/terms-of-use/index";
 
 function App() {
     const dispatch = useDispatch();
