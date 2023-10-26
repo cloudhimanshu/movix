@@ -1,0 +1,48 @@
+/* About.css */
+
+:root {
+    --primary-color: #db212a;
+    --secondary-color: #000000;
+    --heading-color: #fffb00;
+    --paragraph-color: #ffffff;
+    --text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .About {
+    padding: 120px;
+    max-width: 1960px;
+    margin: 0 auto;
+  
+    background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    background-size: cover;
+    background-position: center;
+  
+    h2 {
+      font-size: 4rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: var(--heading-color);
+      text-shadow: var(--text-shadow);
+    }
+  
+    p {
+      margin-bottom: 20px;
+      line-height: 1.5rem;
+      font-size: 1rem;
+      color: var(--paragraph-color);
+      text-shadow: var(--text-shadow);
+    }
+  
+    @media (max-width: 576px) {
+      padding: 10px;
+  
+      h2 {
+        font-size: 1.5rem;
+      }
+  
+      p {
+        font-size: 0.8rem;
+      }
+    }
+  }
+  
